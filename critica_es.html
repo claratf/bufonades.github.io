@@ -8,7 +8,10 @@
 </head>
 <body>
     <header>
-        <h1>La Gran Falla del Bufón</h1>
+        <div class="logo-container">
+            <img src="logo.jpg" alt="Logo de La Gran Falla del Bufón">
+            <h1>La Gran Falla del Bufón</h1>
+        </div>
         <nav>
             <ul>
                 <li><a href="index.html">Inicio</a></li>
@@ -21,7 +24,6 @@
         </nav>
     </header>
     <main>
-        <!-- Reproductor de audio -->
         <section>
             <h2>Escuchar la crítica en audio</h2>
             <audio controls>
@@ -38,17 +40,26 @@
         </section>
 
         <!-- Reproductor de audio -->
-        <section>
-            <h2>Escuchar la crítica en audio</h2>
-            <audio controls>
-                <source src="explicación.mp3" type="audio/mpeg">
-                Tu navegador no soporta la reproducción de audio.
-            </audio>
-        </section>
+        
     </main>
     <footer>
         <p>&copy; 2025 La Gran Falla del Bufón. Todos los derechos reservados.</p>
     </footer>
+
+    <style>
+        /* Estilos para la cabecera con logo */
+        .logo-container {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        .logo-container img {
+            height: 60px; /* Ajusta el tamaño del logo */
+        }
+        .logo-container h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+    </style>
 </body>
 </html>
-
