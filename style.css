@@ -1,31 +1,48 @@
+/* Establece el color de fondo de la página en un tono verde */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
+    background-color: #c8dbb8; /* Verde suave */
     margin: 0;
     padding: 0;
     color: #333;
 }
 
+/* Cabecera con logo */
 header {
     background-color: #2e3b4e;
     padding: 20px;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     color: white;
 }
 
-header h1 {
+/* Contenedor del logo */
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo-container img {
+    height: 60px; /* Tamaño ajustable del logo */
+}
+
+.logo-container h1 {
     margin: 0;
     font-size: 2em;
 }
 
+/* Estilos del menú de navegación */
 nav ul {
     list-style-type: none;
     padding: 0;
+    display: flex;
+    gap: 15px;
 }
 
 nav ul li {
     display: inline;
-    margin-right: 15px;
 }
 
 nav ul li a {
@@ -38,12 +55,30 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
+/* Contenido principal */
 main {
     padding: 20px;
     max-width: 1200px;
     margin: 0 auto;
 }
 
+/* Sección con fondo semitransparente */
+section {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Estilos para el reproductor de audio */
+audio {
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* Pie de página */
 footer {
     background-color: #2e3b4e;
     color: white;
