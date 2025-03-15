@@ -33,22 +33,42 @@ header {
     font-size: 2em;
 }
 
-/* Estilos del menú de navegación */
+/* Estilos para el logo en todas las páginas */
+.logo {
+    display: block;
+    margin: 0 auto;
+    max-width: 200px; /* Ajusta el tamaño según sea necesario */
+    padding: 10px;
+}
+
+/* Estilos del menú de navegación con iconos de banderas */
 nav ul {
     list-style-type: none;
     padding: 0;
     display: flex;
     gap: 15px;
+    align-items: center;
 }
 
 nav ul li {
-    display: inline;
+    display: inline-block;
 }
 
 nav ul li a {
-    color: white;
+    display: flex;
+    align-items: center;
     text-decoration: none;
     font-size: 1.1em;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li img {
+    width: 30px;  /* Ajusta el tamaño de las banderas */
+    height: 30px;
+    border-radius: 50%;  /* Hace las imágenes redondas */
+    margin-right: 8px;
+    border: 1px solid white;
 }
 
 nav ul li a:hover {
@@ -88,3 +108,4 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
