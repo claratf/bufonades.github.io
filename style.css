@@ -37,7 +37,7 @@ header {
 .logo {
     display: block;
     margin: 0 auto;
-    max-width: 100px; /* Ajusta el tamaño según sea necesario */
+    max-width: 50px; /* Ajusta el tamaño según sea necesario */
     padding: 10px;
 }
 
