@@ -42,6 +42,7 @@ header {
 }
 
 /* Estilos del menú de navegación con iconos de banderas */
+
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -64,12 +65,14 @@ nav ul li a {
 }
 
 nav ul li img {
+    display: block;
     width: 30px;  /* Ajusta el tamaño de las banderas */
     height: 30px;
     border-radius: 50%;  /* Hace las imágenes redondas */
     margin-right: 8px;
     border: 1px solid white;
 }
+
 
 nav ul li a:hover {
     text-decoration: underline;
